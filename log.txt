@@ -1,0 +1,29 @@
+KURANGNYA
+depan
+...
+sinkronin sama database
+css di kontak
+
+register semnas
+
+link event detail di startMenu
+rampungin event detail + online register
+
+
+
+
+---update--
+
+//all view @ axmin
+
+reg_futsal dkk
+finish register
+navbar event
+section-event-detail
+pamflet
+startmenu.php
+
+
+BUTUH
+BG PARTI
+PAMFLET PER KEGIATAN

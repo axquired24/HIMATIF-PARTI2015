@@ -1,0 +1,96 @@
+/*//baseCSS*/
+@import "min/metro-bootstrap.min.css";
+@import "min/metro-bootstrap-responsive.min.css";
+@import "min/iconFont.min.css";
+
+body{
+	padding-bottom: 100px;
+}
+
+.tile-area{
+	margin-top: -40px;
+}
+
+
+.bg-start {
+background-image: url("image/bg_transparent.jpg");
+background-repeat: no-repeat;
+background-position: top;
+background-attachment: fixed;				
+}
+
+#startMenu{
+	margin-bottom: 40px;
+}
+
+h1.tile-area-title, .user-id{			
+	margin-top: 60px;
+	visibility: hidden;
+}
+#more-sponsor, #more-timeline, #more-apa-parti{
+	padding: 60px;
+	margin-top: 0px;
+	margin-bottom: 0;
+	opacity: 0.9;
+}
+	.apa-parti-teks{
+		text-indent: 20px;
+		line-height: 40px;
+	}
+#contact-us{
+	padding: 60px;
+	margin-top: 60px;
+	min-height: 700px;			
+}
+@media screen and (max-width: 640px){
+	.outer-line{
+		font-weight: bold;
+		font-size: 1.2em;
+		border: none;
+		margin: 10px;
+		padding: 10px;
+		padding-left:0;
+		margin-left:0;
+		cursor: pointer;		
+	}
+	
+	.contact-box > span{
+		display: block;
+		margin-top: 10px;
+		text-align: left;
+	}	
+}			
+@media screen and (min-width: 640px){
+	.outer-line{
+		border-radius: 0;
+		border: #F2FFF1 3px solid;
+		padding: 10px;
+		padding-left: 60px;
+		padding-right: 60px;
+		cursor: pointer;
+
+	}
+
+	.contact-box > span{
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+	}	
+}
+
+	.mail-big > span{
+		font-size: 36px;			
+		text-align: left;			
+	}
+	.mail-big > span > small{
+		display: block;
+		font-size: 12px;
+	}		
+
+
+/*Admin*/
+.admin-form input, .admin-form textarea {
+	background-color: transparent;
+	border: #FFF 1px solid;
+	color: #FFF;
+}
